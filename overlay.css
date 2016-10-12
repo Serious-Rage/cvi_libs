@@ -1,0 +1,22 @@
+#ol { background-color: transparent; z-index: 9999; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; padding: 0px; margin: 0px; border: none;}
+#fd { background-color: black; opacity: 0.5; position: relative; width: 100%; height: 100%; padding: 0px; margin: 0px; border: none;}
+#cl { background-color: transparent; opacity: 0.0; position: fixed; left: 0px; top: 0px; display: block; padding: 0px; margin: 0px; width: 34px; height: 34px; cursor: pointer;}
+#tx { background-color: transparent; position: fixed; left: 40px; top: 0px; display: table; padding: 0px; margin: 0px; width: auto; height: 24px; vertical-align: bottom; overflow: hidden;}
+#tl { display: table-cell; width: auto; height: 0.9em; text-shadow:black 0px 0px 4px; color: white; font: bold 0.9em Tahoma, Arial, Helvetica, sans-serif; vertical-align: bottom; }
+
+.ol { background-color: transparent; position: absolute; left: 0px; top: 0px; padding: 0px; margin: 0px; border: none; width: 100%; height: 100%;}
+.ol_t { background: url(../images/ol/t.png) repeat-x transparent; }
+.ol_r { background: url(../images/ol/r.png) repeat-y transparent; }
+.ol_b { background: url(../images/ol/b.png) repeat-x transparent; }
+.ol_l { background: url(../images/ol/l.png) repeat-y transparent; }
+.ol_rt { background: url(../images/ol/rt.png) transparent; }
+.ol_rb { background: url(../images/ol/rb.png) transparent; }
+.ol_lb { background: url(../images/ol/lb.png) transparent; }
+.ol_lt { background: url(../images/ol/lt.png) transparent; }
+.ol_cl { background: url(../images/ol/cl.png) transparent; }
+.ol_ct { background: white url(../images/ol/indicator.gif) 50% 50% no-repeat; height:100%; padding: 0px; margin: 0px;}
+
+.ex:link {color:white; text-decoration:none;} 
+.ex:visited {color:white; text-decoration:none;} 
+.ex:active {color:#fa0; text-decoration:none;} 
+.ex:hover {color:#fa0; text-decoration:none;}
