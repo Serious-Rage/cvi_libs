@@ -1,4 +1,4 @@
-{"cdn" : [ 
+{"cdn": {"js" : [ 
 { "cvi_istack_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_istack_lib.js" },
 { "cvi_corner_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_corner_lib.js" },
 { "cvi_filter_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter_lib.js" },
@@ -7,7 +7,12 @@
 { "cvi_guage.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_guage.js" },
 { "cvi_stackblur.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_stackblur.js" },
 { "sphere.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/sphere.js" },
-{ "xxx": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/xxx" },
-{ "xxx": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/xxx" },
+{ "cvi_filter.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter.js" },
+{ "overlay.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.js" },
 { "xxx": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/xxx" }
-]};
+              ],
+"css":        [
+{"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" }    
+              ]  
+        }
+}
