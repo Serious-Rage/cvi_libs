@@ -5,6 +5,19 @@ bin-release/
 [Oo]bj/ # FlashDevelop obj
 [Bb]in/ # FlashDevelop bin
 
+# misc
+.project
+.settings
+*~
+*.diff
+*.patch
+*.sizecache.json
+.DS_Store
+node_modules
+bower_components
+Contact GitHub API Training Shop Blog About
+
+
 # Other files and folders
 .settings/
 
