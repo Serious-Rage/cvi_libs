@@ -15,15 +15,13 @@ bin-release/
 .DS_Store
 node_modules
 bower_components
-# <<<<<<< HEAD
 
 
-# Contact GitHub API Training Shop Blog About
-# =======
-# Contact GitHub API Training Shop Blog About
 
 
-# >>>>>>> 284873a701a26e8cf42fd1c193372047e6c49ee7
+
+
+
 # Other files and folders
 .settings/
 
