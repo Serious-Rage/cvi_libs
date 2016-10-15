@@ -1,2 +1,2 @@
 # cvi_libs
-collection of Effenberger's cvi libs
+script libs, mods, and CDNs are inventory, it's Management is the project at hand.

@@ -9,10 +9,11 @@
 { "sphere.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/sphere.js" },
 { "cvi_filter.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter.js" },
 { "overlay.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.js" },
-{ "xxx": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/xxx" }
+{ "underscore.dev.js": "http://underscorejs.org/underscore.js" }
               ],
 "css":        [
-{"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" }    
+{"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" },
+{"git_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" }
               ]  
         }
 }
