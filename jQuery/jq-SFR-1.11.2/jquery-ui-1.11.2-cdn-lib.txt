@@ -1,0 +1,213 @@
+// jquery-ui-1.11.2-theme-cdns
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.js
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.min.js
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/black-tie/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/blitzer/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/cupertino/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/dark-hive/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/dot-luv/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/eggplant/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/excite-bike/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/flick/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/hot-sneaks/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/humanity/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/le-frog/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/mint-choc/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/overcast/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/pepper-grinder/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/redmond/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/smoothness/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/south-street/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/start/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/sunny/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/swanky-purse/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/trontastic/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/ui-darkness/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/ui-lightness/jquery-ui.css
+http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/themes/vader/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.js
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/black-tie/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/blitzer/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/cupertino/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/dark-hive/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/dot-luv/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/eggplant/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/excite-bike/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/flick/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/hot-sneaks/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/humanity/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/le-frog/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/mint-choc/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/overcast/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/pepper-grinder/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/south-street/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/start/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/sunny/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/swanky-purse/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/trontastic/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/ui-darkness/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/ui-lightness/jquery-ui.css
+http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/vader/jquery-ui.css
+    http://api.jqueryui.com/
+    http://appendto.com/what-we-do/training/schedule/jquery-virtual-training-april-2014/
+    http://appendto.com/what-we-do/training/schedule/jquery-virtual-training-june-2014/
+    http://blog.jqueryui.com/
+    http://bower.io/
+    http://brand.jquery.org/
+    http://bugs.jqueryui.com/
+    http://code.jquery.com/ui/
+    http://code.jquery.com/ui/1.11.2/jquery-ui.js
+    http://code.jquery.com/ui/1.11.2/jquery-ui.min.js
+    http://code.jquery.com/ui/1.11.2/themes/black-tie/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/blitzer/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/cupertino/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/dark-hive/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/dot-luv/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/eggplant/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/excite-bike/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/flick/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/hot-sneaks/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/humanity/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/le-frog/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/mint-choc/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/overcast/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/pepper-grinder/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/redmond/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/south-street/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/start/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/sunny/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/swanky-purse/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/trontastic/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/ui-darkness/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/ui-lightness/jquery-ui.css
+    http://code.jquery.com/ui/1.11.2/themes/vader/jquery-ui.css
+    http://contribute.jquery.org/
+    http://contribute.jquery.org/cla/
+    http://contribute.jquery.org/code/
+    http://contribute.jquery.org/documentation/
+    http://contribute.jquery.org/style-guide/
+    http://contribute.jquery.org/triage/
+    http://contribute.jquery.org/web-sites/
+    http://events.jquery.org/
+    http://events.jquery.org/2014/chicago/
+    http://forum.jquery.com/
+    http://forum.jquery.com/using-jquery-ui/
+    http://github.com/jquery/jquery-ui/
+    http://github.com/jquery/jquery-ui/tree/1.11.2
+    http://irc.jquery.org/
+    http://jquery.com/
+    http://jquerymobile.com/
+    http://jqueryui.com/
+    http://jqueryui.com/about
+    http://jqueryui.com/changelog/1.11.2/
+    http://jqueryui.com/demos/
+    http://jqueryui.com/development
+    http://jqueryui.com/download
+    http://jqueryui.com/download/
+    http://jqueryui.com/download/all/
+    http://jqueryui.com/resources/download/jquery-ui-1.11.2.zip
+    http://jqueryui.com/resources/download/jquery-ui-themes-1.11.2.zip
+    http://jqueryui.com/support
+    http://jqueryui.com/themeroller
+    http://jqueryui.com/upgrade-guide/1.11/
+    http://jqueryuk.com/?utm_source=jqueryorg&utm_medium=banner&utm_campaign=jqueryorgbanner
+    http://learn.jquery.com/
+    http://link.packtpub.com/PG9pAC
+    http://mediatemple.net/
+    http://plugins.jquery.com/
+    http://qunitjs.com/
+    http://sizzlejs.com/
+    http://stackoverflow.com/tags/jquery/info
+    http://try.jquery.com/
+    http://twitter.com/jqueryui
+    http://wordpress.org/
+    http://www.asp.net/ajaxlibrary/cdn.ashx
+    http://www.manning.com/vantoll/
+    http://www.maxcdn.com/
+    http://www.packtpub.com/jquery-userinterface-cookbook/book
+    https://blog.jqueryui.com/
+    https://blog.jqueryui.com/2009/03/
+    https://blog.jqueryui.com/2009/04/
+    https://blog.jqueryui.com/2009/06/
+    https://blog.jqueryui.com/2009/08/
+    https://blog.jqueryui.com/2009/12/
+    https://blog.jqueryui.com/2010/01/
+    https://blog.jqueryui.com/2010/02/
+    https://blog.jqueryui.com/2010/03/
+    https://blog.jqueryui.com/2010/04/
+    https://blog.jqueryui.com/2010/05/
+    https://blog.jqueryui.com/2010/06/
+    https://blog.jqueryui.com/2010/07/
+    https://blog.jqueryui.com/2010/08/
+    https://blog.jqueryui.com/2010/09/
+    https://blog.jqueryui.com/2010/11/
+    https://blog.jqueryui.com/2010/12/
+    https://blog.jqueryui.com/2011/01/
+    https://blog.jqueryui.com/2011/02/
+    https://blog.jqueryui.com/2011/03/
+    https://blog.jqueryui.com/2011/04/
+    https://blog.jqueryui.com/2011/05/
+    https://blog.jqueryui.com/2011/06/
+    https://blog.jqueryui.com/2011/07/
+    https://blog.jqueryui.com/2011/08/
+    https://blog.jqueryui.com/2011/09/
+    https://blog.jqueryui.com/2011/10/
+    https://blog.jqueryui.com/2012/01/
+    https://blog.jqueryui.com/2012/02/
+    https://blog.jqueryui.com/2012/03/
+    https://blog.jqueryui.com/2012/04/
+    https://blog.jqueryui.com/2012/05/
+    https://blog.jqueryui.com/2012/06/
+    https://blog.jqueryui.com/2012/07/
+    https://blog.jqueryui.com/2012/08/
+    https://blog.jqueryui.com/2012/09/
+    https://blog.jqueryui.com/2012/10/
+    https://blog.jqueryui.com/2012/11/
+    https://blog.jqueryui.com/2012/12/
+    https://blog.jqueryui.com/2013/01/
+    https://blog.jqueryui.com/2013/02/
+    https://blog.jqueryui.com/2013/03/
+    https://blog.jqueryui.com/2013/04/
+    https://blog.jqueryui.com/2013/05/
+    https://blog.jqueryui.com/2014/01/
+    https://blog.jqueryui.com/2014/04/
+    https://blog.jqueryui.com/2014/05/
+    https://blog.jqueryui.com/2014/05/jquery-ui-1-11-0-beta-2/
+    https://blog.jqueryui.com/2014/06/
+    https://blog.jqueryui.com/2014/06/jquery-ui-1-11-0/
+    https://blog.jqueryui.com/2014/08/
+    https://blog.jqueryui.com/2014/08/jquery-ui-1-11-1/
+    https://blog.jqueryui.com/2014/10/
+    https://blog.jqueryui.com/2014/10/jquery-ui-1-11-2/
+    https://blog.jqueryui.com/2015/02/
+    https://blog.jqueryui.com/2015/02/jquery-ui-1-11-3/
+    https://blog.jqueryui.com/2015/03/
+    https://blog.jqueryui.com/2015/03/jquery-ui-1-11-4/
+    https://blog.jqueryui.com/2016/01/
+    https://blog.jqueryui.com/2016/01/jquery-ui-1-12-0-beta-1/
+    https://blog.jqueryui.com/2016/03/
+    https://blog.jqueryui.com/2016/03/jquery-ui-1-12-0-release-candidate-1/
+    https://blog.jqueryui.com/2016/04/
+    https://blog.jqueryui.com/2016/04/jquery-ui-1-12-0-release-candidate-2/
+    https://blog.jqueryui.com/2016/09/
+    https://blog.jqueryui.com/2016/09/jquery-ui-1-12-1/
+    https://blog.jqueryui.com/author/scottgonzalez/
+    https://blog.jqueryui.com/category/design/
+    https://blog.jqueryui.com/category/development/
+    https://blog.jqueryui.com/category/releases/
+    https://blog.jqueryui.com/category/weekly-news/
+    https://developers.google.com/speed/libraries/devguide#jquery-ui
+    https://engine.adzerk.net/r?e=eyJhdiI6MjIyMzYsImF0IjoxMzE0LCJidCI6MCwiY20iOjcxOTMyLCJjaCI6ODM2OCwiY2siOnt9LCJjciI6MTk5Nzc1LCJkaSI6ImE1NzM4MTQ4YWRhMjRmNmJiMjBjM2M3YzRiZDFjYmZiIiwiZG0iOjEsImZjIjoyNTE4ODYsImZsIjoxMjc4NzQsImlwIjoiMTA4LjE4MC4xODYuMzgiLCJudyI6NTQ0OSwicGMiOjAsImVjIjowLCJwciI6MjE5MzcsInJ0IjoxLCJyZiI6Imh0dHBzOi8vYmxvZy5qcXVlcnl1aS5jb20vY2F0ZWdvcnkvcmVsZWFzZXMvIiwic3QiOjUzODI5LCJ1ayI6InVlMS1kYTM5N2U1NzBlZDU0YTQxOTI1MWUzMTc1NTc4NTRlNiIsInRzIjoxNDc3MDc4NzI0NDk5LCJiZiI6dHJ1ZSwicG4iOiJicm9hZGNhc3QiLCJ1ciI6Imh0dHBzOi8vanF1ZXJ5Lm9yZy9kb25hdGUvIn0&s=mQSeOW15VlH1LlFMBi2b9c9gEr8
+    https://github.com/jquery
+    https://jquery.org/
+    https://jquery.org/donate/
+    https://jquery.org/join/
+    https://jquery.org/license/
+    https://jquery.org/members/
+    https://jquery.org/sponsors/
+    https://jquery.org/support/
+    https://jquery.org/team/
