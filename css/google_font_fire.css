@@ -1,0 +1,225 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v8/6UByihrsVPWtZ99tNMIgMIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v8/DPPfSFKxRTXvae2bKDzp5JBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url(https://fonts.gstatic.com/s/amaticsc/v8/IDnkRTPGcrSVo50UyYNK74joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url(https://fonts.gstatic.com/s/amaticsc/v8/IDnkRTPGcrSVo50UyYNK7xampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton'), url(https://fonts.gstatic.com/s/anton/v7/8NU_-DMruT2VEumfuawh8YDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton'), url(https://fonts.gstatic.com/s/anton/v7/TS7BJzhU7AKgPn9R0AejYKCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Baloo Chettan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo Chettan'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v1/ODsFofLybGVOJ90e_EwdFcAqYsnCCUa_vxd9RQpUchA.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0964-0965, U+0D02-0D7F, U+200B-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Chettan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo Chettan'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v1/ODsFofLybGVOJ90e_EwdFXjFAwUxWLEhS6dU-QbMEkw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Chettan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo Chettan'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v1/ODsFofLybGVOJ90e_EwdFatzCyEH7bcuR1aCaJhB8rI.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Chettan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo Chettan'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v1/ODsFofLybGVOJ90e_EwdFW2C_mZLXxrZg-qBMMega1s.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script'), local('DancingScript'), url(https://fonts.gstatic.com/s/dancingscript/v7/DK0eTGXiZjN6yA8zAEyM2ZsM3FTMmj2kTPH3yX99Yaw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(https://fonts.gstatic.com/s/dancingscript/v7/KGBfwabt0ZRLA5W1ywjowdZ1pH3HRdX2lLFmZY4nwnk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url(https://fonts.gstatic.com/s/gloriahallelujah/v8/CA1k7SlXcY5kvI81M_R28YGdvEu4SOXaLqFXyFUihk4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@-moz-keyframes font-effect-fire-animation-keyframes {
+  0% {
+    text-shadow: 0 -0.05em 0.2em white, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  25% {
+    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  27% {
+    text-shadow: 0 -0.05em 0.2em red 0 -0.05em 0.17em #ff3700, 0.04em -0.12em 0.22em deepskyblue, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em greenyellow, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em red;
+  }
+   29% {
+    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  50% {    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  75% {
+    text-shadow: 0 -0.05em 0.2em red, 0 -0.06em 0.18em #FE0, 0.05em -0.15em 0.23em #FC0, 0.05em -0.15em 0.3em #F90, 0.07em -0.25em 0.4em #F70, 0.09em -0.3em 0.5em #F70, 0.1em -0.3em 0.9em #F50, 0.1em -0.3em 1.0em #F40;
+  }
+  82% {
+    text-shadow: 0 -0.15em 0.24em #CC6E6E, 0.13em -0.27em 0.35em #FE0, 0.11em -0.25em 0.35em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.29em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  100% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.11em -0.22em 0.25em  #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+}
+
+@-webkit-keyframes font-effect-fire-animation-keyframes {
+ 0% {
+    text-shadow: 0 -0.05em 0.2em white, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  25% {
+    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  27% {
+    text-shadow: 0 -0.05em 0.2em red 0 -0.05em 0.17em #ff3700, 0.04em -0.12em 0.22em deepskyblue, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em greenyellow, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em red;
+  }
+   29% {
+    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  50% {    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  75% {
+    text-shadow: 0 -0.05em 0.2em red, 0 -0.06em 0.18em #FE0, 0.05em -0.15em 0.23em #FC0, 0.05em -0.15em 0.3em #F90, 0.07em -0.25em 0.4em #F70, 0.09em -0.3em 0.5em #F70, 0.1em -0.3em 0.9em #F50, 0.1em -0.3em 1.0em #F40;
+  }
+  82% {
+    text-shadow: 0 -0.15em 0.24em #CC6E6E, 0.13em -0.27em 0.35em #FE0, 0.11em -0.25em 0.35em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.29em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  100% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.11em -0.22em 0.25em  #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+}
+
+
+@keyframes font-effect-fire-animation-keyframes {
+  0% {
+    text-shadow: 0 -0.05em 0.2em white, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  25% {
+    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  27% {
+    text-shadow: 0 -0.05em 0.2em red 0 -0.05em 0.17em #ff3700, 0.04em -0.12em 0.22em deepskyblue, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em greenyellow, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em red;
+  }
+   29% {
+    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  50% {    text-shadow: 0 -0.05em 0.2em #CC6E6E, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  75% {
+    text-shadow: 0 -0.05em 0.2em red, 0 -0.06em 0.18em #FE0, 0.05em -0.15em 0.23em #FC0, 0.05em -0.15em 0.3em #F90, 0.07em -0.25em 0.4em #F70, 0.09em -0.3em 0.5em #F70, 0.1em -0.3em 0.9em #F50, 0.1em -0.3em 1.0em #F40;
+  }
+  82% {
+    text-shadow: 0 -0.15em 0.24em #CC6E6E, 0.13em -0.27em 0.35em #FE0, 0.11em -0.25em 0.35em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.29em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  100% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.11em -0.22em 0.25em  #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+}
+.font-effect-fire-animation {
+  -moz-animation-duration:0.8s;
+  -moz-animation-name:font-effect-fire-animation-keyframes;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-direction:alternate;
+   animation-duration:0.8s;
+  animation-name:font-effect-fire-animation-keyframes;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+   -webkit-animation-duration:0.8s;
+  -webkit-animation-name:font-effect-fire-animation-keyframes;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+  color: #000;
+  font-size: 140%;
+}
+
+/*
+**** NOTES ****
+
+*********** TO SPECIFY IN CSS **********
+
+font-family: 'Rock Salt', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Clicker Script', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Lobster', cursive;
+
+
+
+********** TO USE INCLUDE METHOD ***********
+<style>
+@import url('https://fonts.googleapis.com/css?family=Allura|Bad+Script|Clicker+Script|Damion|Grand+Hotel|Homemade+Apple|Kalam:300,400,700|Lobster|Pinyon+Script|Rock+Salt|Sacramento|Shrikhand&subset=cyrillic,devanagari,gujarati,latin-ext,vietnamese');
+</style>
+
+*/

@@ -3,7 +3,6 @@
   td,
   select,
   option,
-  p,
   h4,
   h3 {
       color: red;
@@ -12,23 +11,80 @@
       text-overflow: inherit;
       width: 100%;
   }
+  p {
+      color:white;
+      text-align: left;
+  }
   
-  body {
+  body  {
+      font-weight: 300;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      color: white;
+      text-shadow: 0 0 0 0;
       background-color: #000;
       width: inherit;
       padding: 1px 4% 1px 4%;
   }
   
-  #mainTitle {
+  h1,
+  h2,
+  h3,
+  h4,
+  span,
+  ul,
+  li th,
+  tr,
+  td {
+    opacity:1.0;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      cursor: pointer;
+      display: block;
+      width: 15px;
+      color: #333;
+      text-align: center;
       position: relative;
-      left: -2%;
-      align-self: center;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button:before,
+  input[type=number]::-webkit-inner-spin-button:after {
+      content: "^";
+      position: absolute;
+      right: 0;
+      background: black;
+      font-family: monospace;
+      
+  }
+  
+  input[type=number]::-webkit-inner-spin-button:before {
+      top: 0px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button:after {
+      bottom: 0px;
+      -webkit-transform: rotate(180deg);
+  }
+  
+  input {
+      width: 12%;
+      background: black;
+      height: 32px;
+      text-align: center;
+      font-size: 130%;
+  }
+  
+  #mainTitle {
+      
+      text-align: center;
       color: red;
   }
-  .ainTitle {
-      position: relative;
-      left: -2%;
-      align-self: center;
+  
+  .mainTitle {
+      
+      text-align: center;
       color: red;
   }
   
@@ -152,8 +208,9 @@
       color: red;
       background: red;
   }
+  
   hr#headerUnder {
-       color: red;
+      color: red;
       background: red;
   }
   
@@ -170,4 +227,18 @@
       color: black;
       font-size: 105%;
       font-style: bold;
+  }
+
+  .blueTextLeft {
+      color:blue;
+      text-align: left;
+  }
+
+  .centered {
+      text-align: center;
+  }
+
+  .whiteTextLeft {
+      color: white;
+      text-align: left;
   }
