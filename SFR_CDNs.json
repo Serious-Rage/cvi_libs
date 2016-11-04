@@ -1,32 +1,40 @@
-{"cdn": {"js" : [ 
-{ "cvi_istack_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_istack_lib.js" },
-{ "cvi_corner_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_corner_lib.js" },
-{ "cvi_filter_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter_lib.js" },
-{ "cvi_sphere_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_sphere_lib.js" },
-{ "cvi_glossy_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_glossy_lib.js" },
-{ "cvi_guage.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_guage.js" },
-{ "cvi_stackblur.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_stackblur.js" },
-{ "sphere.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/sphere.js" },
-{ "cvi_filter.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter.js" },
-{ "overlay.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.js" },
-{ "underscore.dev.js": "http://underscorejs.org/underscore.js" },
-{ "less.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.3/css/sfr-LESS/less.js" },
-{ "velocity.min.js": "https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js" },
-{ "jqx-all.js": "https://www.jqwidgets.com/public/jqwidgets/jqx-all.js" },
-{ "jquery.min.js": "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" },
-{ "jqx.base.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" },
-{ "jQwidjitGlobalize": "https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"},
+ {"cdn":   
+     {
+       "js" : [ 
+            { "cvi_istack_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_istack_lib.js" },
+            { "cvi_corner_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_corner_lib.js" },
+            { "cvi_filter_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter_lib.js" },
+            { "cvi_sphere_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_sphere_lib.js" },
+            { "cvi_glossy_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_glossy_lib.js" },
+            { "cvi_guage.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_guage.js" },
+            { "cvi_stackblur.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_stackblur.js" },
+            { "sphere.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/sphere.js" },
+            { "cvi_filter.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter.js" },
+            { "overlay.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.js" },
+            { "underscore.dev.js": "http://underscorejs.org/underscore.js" },
+            { "less.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.3/css/sfr-LESS/less.js" },
+            { "velocity.min.js": "https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js" },
+            { "jqx-all.js": "https://www.jqwidgets.com/public/jqwidgets/jqx-all.js" },
+            { "jquery.min.js": "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" },
+            { "jqx.base.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" },
+            { "jQwidjitGlobalize": "https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"}
               ],
-"css":        [
-{"extensive_boot.css": "https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" },
-{"SFR_wRset_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
-{"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },      
-{"jqx.energyblue.css": "https://www.jqwidgets/styles/jqx.energyblue.css" },
-{"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" },
-{"git_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
-{"jqx.energyblue.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" },
-{"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },
-{"jqx.energyblue.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css"}    
+  "local_js": [
+            { "modernizer2.8.3": "html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"}
+               ],
+  "local_css": [            
+            { "SFR_Write.css": "css/basic.css" }
+              ],
+       "css": [
+            {"extensive_boot.css": "https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" },
+            {"SFR_wRset_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
+            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },      
+            {"jqx.energyblue.css": "https://www.jqwidgets/styles/jqx.energyblue.css" },
+            {"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" },
+            {"git_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
+            {"jqx.energyblue.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" },
+            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },
+            {"jqx.energyblue.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css"}    
               ]  
         }
 }
