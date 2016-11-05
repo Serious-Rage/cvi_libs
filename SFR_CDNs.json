@@ -76,12 +76,17 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
   {"XXXXXXX": "XXXXXXXX" },
 
 https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/less.css
+<<<<<<< HEAD
 <link rel="stylesheet/less" type="text/css" href="styles.less" />
 
 <script src=""></script>
 
 
 *****************************
+=======
+
+
+>>>>>>> 633b6a86428f3a4e1235aaf1ce895f5ed46d598c
 images
 https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX43vmDXVMXghK8w
 
