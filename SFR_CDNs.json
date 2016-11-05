@@ -44,8 +44,8 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
             { "SFR_flames.css": "css/google_font_fire.css" }
                ],
  "local_Less": [            
-            { "styles.less": "css/SFR_less/styles.css" },
-            { "styles2.less": "css/SFR_less/styles2.css" }
+            { "styles.less": "css/SFR_less/styles.less" },
+            { "styles2.less": "css/SFR_less/styles2.less" }
               ],            
        "css": [
             {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" }, 
