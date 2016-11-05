@@ -9,7 +9,7 @@
 	body {
 			
 			background-color: black;
-			background-image:url(lavatile.jpg);
+			background-image:url(https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX43vmDXVMXghK8w);
 			background-size:100% 100%;
 			background-repeat:no-repeat;
 			width:1200px;
@@ -23,6 +23,9 @@ img {
 	min-height:680px;
 	width: 1250px;
 	height: 680px;
+}
+.lava {
+background-image:url(https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX43vmDXVMXghK8w);	
 }
 
 .stopped {
