@@ -66,14 +66,33 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
 
 
 
-
+/* *****************************
 //staged to move into json
 /* *****************************
 
 ###  dummy entries - use one then duplicate other
 
- {"XXXXXXX": "XXXXXXXX" },
   {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+TO - Do 
+***************************************************************************************
+***************************************************************************************
+******* jQuery migrate - use pair in correct order  *************
+<script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.4.1.js"></script>
+
+******* jQuery migrate - use pair in correct order  *************
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script> 
+***************************************************************************************
+***************************************************************************************
+
+
 
 https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/less.css
 <<<<<<< HEAD
