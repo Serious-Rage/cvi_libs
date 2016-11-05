@@ -3,32 +3,8 @@
 @mainTxtColor: #FA4A14;
 @lighterColor: #E7A6A6;
 @darkerColor: #E71111;
-@lava_back: url(https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX43vmDXVMXghK8w); // background image
+@lava_back: url(../lavatile.jpg); // background image
 @back_n_black: #000;
-@red1: #E71111;
-@clear: transparent;
-
-
-// background-color sets
-
-@bck_1: #000;
-@bck_2: #353434;
-@bck_3: #6B6868;
-
-.bck1 {
-	background-color: @bck_1;
-	color: @red1;
-}
-.bck2 {
-	background-color: @bck_2;
-}
-.bck3 {
-	background-color: @bck_3;
-}
-
-
-
-// - - -
 @Centxt: center;
 // Font Effects
 
@@ -54,41 +30,6 @@ cursive;
 cursive;
 // ***************************************
 // ***************** mix-ins *************
-
-
-
-
-
-// Transforms
-
-.Badtransition (@value1,@value2:X,...)
-{
-    @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
-
-    -webkit-transition: @value;
-    -moz-transition: @value;
-    -ms-transition: @value;
-    -o-transition: @value;
-    transition: @value;
-}
-
-// using it this way
-
-.Badtransition(color, opacity .5s ease-in-out);
-
-// yeilds
-/*
--webkit-transition: color, opacity .5s ease-in-out;
--moz-transition: color, opacity .5s ease-in-out;
--ms-transition: color, opacity .5s ease-in-out;
--o-transition: color, opacity .5s ease-in-outt;
-transition: color, opacity .5s ease-in-out;
-
-*/
-
-
-
-
 .pageFonts {
 	//font-family: Tahoma, Arial, sans-serif;
 	font-family: @fontGloryHallelu;
@@ -144,12 +85,7 @@ html {
 
 body {
 	.pageFonts;
-	.body1;
-}
-
-.body1 {
 	background-image: @lava_back;
-	color: @darkerColor;
 	width: 98%;
 	max-width: 1313px;
 	min-width: 438px;

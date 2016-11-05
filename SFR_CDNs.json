@@ -16,6 +16,7 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
  {"cdn":   
      {
        "js" : [ 
+            { "less.min.js": "//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js" },
             { "cvi_istack_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_istack_lib.js" },
             { "cvi_corner_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_corner_lib.js" },
             { "cvi_filter_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter_lib.js" },
@@ -35,12 +36,17 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
             { "jQwidjitGlobalize": "https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"}
               ],
   "local_js": [
+            { "less.js": "css/SFR_less/less.js" },
             { "modernizer2.8.3": "html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"}
                ],
   "local_css": [            
             { "SFR_Write.css": "css/basic.css" },
             { "SFR_flames.css": "css/google_font_fire.css" }
-              ],
+               ],
+ "local_Less": [            
+            { "styles.less": "css/SFR_less/styles.css" },
+            { "styles2.less": "css/SFR_less/styles2.css" }
+              ],            
        "css": [
             {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" }, 
             {"SFR_basic.css_v1.1.2": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/basic.css" },
@@ -70,12 +76,18 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
   {"XXXXXXX": "XXXXXXXX" },
 
 https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/less.css
+<link rel="stylesheet/less" type="text/css" href="styles.less" />
+
+<script src=""></script>
 
 
+*****************************
 images
 https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX43vmDXVMXghK8w
 
 
+encoded
+https%3A%2F%2Fdocs.google.com%2Fuc%3Fexport%3D%26id%3D0B8Ss3MAjn4OrTVVTQ1FLUlFFMXc%0Ahttps%3A%2F%2Fdocs.google.com%2Fuc%3Fexport%3D%26id%3D0B8Ss3MAjn4OraVcyaGNvRW93RVU%0Ahttps%3A%2F%2Fdocs.google.com%2Fuc%3Fexport%3D%26id%3D0B8Ss3MAjn4OrQkd2UWpkMjJtWVk%0Ahttps%3A%2F%2Fdocs.google.com%2Fuc%3Fexport%3D%26id%3D0B8Ss3MAjn4OreEJUZWdvYkRZV1k
 
 **********************************
 
