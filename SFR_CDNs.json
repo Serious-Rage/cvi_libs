@@ -1,3 +1,18 @@
+/* *****************************
+
+# SFR-Web development 
+# SFR-series - json data v1.1.3 pre-release
+- - - - - - - - - - - - - - - - - - - - - - -
+
+* CDN to v1.1.2 json data  pre-release *
+https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/SFR_CDNs.json
+
+
+* CDN to FLAME Effect Sample v1.1.2
+https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
+
+*/
+
  {"cdn":   
      {
        "js" : [ 
@@ -27,16 +42,16 @@
             { "SFR_flames.css": "css/google_font_fire.css" }
               ],
        "css": [
-            {"extensive_boot.css": "https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" },
-            {"SFR_wRset_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
-            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },  
+            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" }, 
+            {"SFR_basic.css_v1.1.2": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/basic.css" },
+            {"SFR_verbose_boot.css": "https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" },
+            {"SFR_wRset_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" }, 
             {"googleFontsBasic1_inc_Flames": "https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Anton|Baloo+Chettan|Dancing+Script:400,700|Gloria+Hallelujah&effect=fire-animation|Indie+Flower|Lobster|Pacifico|Shadows+Into+Light" }, 
             {"googleFonts_handWriting_pack.css": "https://fonts.googleapis.com/css?family=Allura|Bad+Script|Clicker+Script|Damion|Grand+Hotel|Homemade+Apple|Kalam:300,400,700|Lobster|Pinyon+Script|Rock+Salt|Sacramento|Shrikhand&amp;subset=cyrillic,devanagari,gujarati,latin-ext,vietnamese" },
             {"jqx.energyblue.css": "https://www.jqwidgets/styles/jqx.energyblue.css" },
             {"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" },
             {"git_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
             {"jqx.energyblue.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" },
-            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },
             {"jqx.energyblue.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css"}    
               ]  
         }
@@ -46,16 +61,26 @@
 
 
 
-//staged
+//staged to move into json
 /* *****************************
 
+###  dummy entries - use one then duplicate other
+
+ {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+
+https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/less.css
+
+
+images
+https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX43vmDXVMXghK8w
 
 
 
-{"googleFontsBasic_inc_Flames": "https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Anton|Baloo+Chettan|Dancing+Script:400,700|Gloria+Hallelujah&effect=fire-animation|Indie+Flower|Lobster|Pacifico|Shadows+Into+Light" }, 
-{"googleFonts_handWriting_pack.css": "https://fonts.googleapis.com/css?family=Allura|Bad+Script|Clicker+Script|Damion|Grand+Hotel|Homemade+Apple|Kalam:300,400,700|Lobster|Pinyon+Script|Rock+Salt|Sacramento|Shrikhand&amp;subset=cyrillic,devanagari,gujarati,latin-ext,vietnamese" },
+**********************************
 
 
+// font class reference for included CDNs
 
 font-family: 'Rock Salt', cursive;
 font-family: 'Bad Script', cursive;
