@@ -60,7 +60,7 @@ cursive;
 
 
 // Transforms
-
+/*
 .Badtransition (@value1,@value2:X,...)
 {
     @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
@@ -71,10 +71,10 @@ cursive;
     -o-transition: @value;
     transition: @value;
 }
-
+*/
 // using it this way
 
-.Badtransition(color, opacity .5s ease-in-out);
+//.Badtransition(color, opacity .5s ease-in-out);
 
 // yeilds
 /*
@@ -189,7 +189,7 @@ body {
 
 .navigation li {
 	display: inline-block;
-	float: left;
+/*	float: left; */
 	margin: 5px;
 	list-style: url(none) none outside;
 	font-size: 1.1rem;
@@ -202,7 +202,7 @@ body {
 .navigation li a,
 .navigation li a:visited {
 	padding: 5px;
-	decoration: none;
+//	decoration: none;
 	text-decoration: none;
 	color: #FFF;
 	font-weight: bold;

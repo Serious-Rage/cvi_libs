@@ -72,24 +72,11 @@ background-image:url(https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX
     animation: mymove 24s infinite;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-    25% {-webkit-transform: rotate(-12deg); scale(1.5,1.5);}
-	40% {-webkit-transform: scale(1.2,1.2);}
-	50% {-webkit-transform: scale(1.7,1.7);}
-	 75% {-webkit-transform: rotate(8deg);}
+
 	
 	
-}
-/* Standard syntax */
-@keyframes mymove {
-    25% {transform: rotate(-12deg); scale(1.5,1.5)}
-	40%{transform: scale(1.2,1.2);}
-	50% {transform: scale(1.7,1.7);}
-	 75% {transform: rotate(8deg);}
-	
-}
-		
+
+
 		
 		
 		
@@ -106,7 +93,7 @@ background-image:url(https://docs.google.com/uc?export=&id=1hZrPuRB4OJO38zD1aRkX
 		      filter: hue-rotate(173deg) invert(90%) saturate(1.02) blur(.1px);
 		opacity: 1.0;
 		    }
-.none {}	
+				
 .bodyhue1 {-webkit-filter: hue-rotate(120deg);
                        filter: hue-rotate(120deg);
                         opacity: 1.0;}

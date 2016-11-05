@@ -1,0 +1,70 @@
+
+// normal css
+@width: 1824px;
+@height: 1368px;
+@QUARTwidth: 456px;
+@QUARTheight: 292px;
+@HLFwidth: 912px;
+@HLFheight: 584px;
+@DBLwidth: 3648px;
+@DBLheight: 2736px;
+// Durations
+@Dur1: 60s;
+@Dur2: 20s;
+// Animation names for Transforms
+@Anim1_name1: effA1;
+@Anim1_name2: effA2;
+
+
+// 
+.eff1 {width: @width; height: @height;
+			-webkit-transform: scale(1.0,1.0) skew(0deg, 0deg) translate(-100px,-100px);
+			transform:  scale(1.0,1.0) skew(0deg, 0deg) translate(0px,0px);
+			-webkit-animation: @Anim_name1 @Dur infinite; /* Chrome, Safari, Opera */
+			animation: @Anim_name1 @Dur infinite;
+			-webkit-animation: @Anim_name2 @Dur2 infinite; /* Chrome, Safari, Opera */
+			animation: @Anim_name2 @Dur2 infinite;
+	}
+@keyframes effA1 {
+    0%  {.pZero}
+	25% {.p25}
+    55% {.p50}
+    75% {.p100}
+    100% {.pZero}		
+}
+@-webkit-keyframes effA1 {
+    0%  {.pZero}
+	25% {.p25}
+    55% {.p50}
+    75% {.p100}
+    100% {.pZero}		
+}
+
+.pZero {
+ 	.transform( 0deg, ( 1.0, 1.0 ), (0deg, 0deg), (0px, 0px));
+} 
+.p25 {
+ 	.transform( 0deg, (1.5, 1.5), (0deg, 0deg), (@QUARTwidth, 0px));
+} 
+.p50 {
+ 	.transform( 5deg, (0.5, 0.5), (0deg, 0deg), (0px, 0px));
+} 
+.p75 {
+ 	.transform( 5deg, (0.5, 0.5), (0deg, 0deg), (0px, 0px));
+} 
+.p100 {
+ 	.transform( 5deg, (0.5, 0.5), (0deg, 0deg), (0px, 0px));
+} 
+/* Mixins */
+.transform (@rotate: 0deg, @scale:(1, 1), @skew:( 0deg, 0deg ), @translate:(10px, 10px)) {
+	-webkit-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-moz-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-o-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-ms-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+}
+/* Implementation 
+.pcnt_25 {
+	.transform(5deg, 0.5, 1deg, 0px);
+} 
+*/
