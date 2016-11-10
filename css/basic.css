@@ -11,12 +11,20 @@
       text-overflow: inherit;
       width: 100%;
   }
-  p {
-      color:white;
-      text-align: left;
+  li a {
+       font-size: 134%;
   }
   
-  body  {
+  p {
+      color: white;
+      text-align: left;
+  }
+  html {
+     max-width:1260px;
+     padding:1% 1% 1% 1%;
+  }
+  
+  body {
       font-weight: 300;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-style: normal;
@@ -36,7 +44,7 @@
   li th,
   tr,
   td {
-    opacity:1.0;
+      opacity: 1.0;
   }
   
   input[type=number]::-webkit-inner-spin-button {
@@ -56,7 +64,6 @@
       right: 0;
       background: black;
       font-family: monospace;
-      
   }
   
   input[type=number]::-webkit-inner-spin-button:before {
@@ -77,13 +84,11 @@
   }
   
   #mainTitle {
-      
       text-align: center;
       color: red;
   }
   
   .mainTitle {
-      
       text-align: center;
       color: red;
   }
@@ -99,7 +104,7 @@
   }
   
   h2 {
-      font-size: 118%;
+      font-size: 148%;
   }
   
   tr,
@@ -184,7 +189,7 @@
       align-self: center;
   }
   
-  div#ontainFrame {
+  div#containFrame {
       width: 800px;
       height: 300px;
       background-color: white;
@@ -228,17 +233,43 @@
       font-size: 105%;
       font-style: bold;
   }
-
+  
   .blueTextLeft {
-      color:blue;
+      color: blue;
       text-align: left;
   }
-
+  
   .centered {
       text-align: center;
   }
-
+  
+  .centerMe {
+      align-self: center;
+  }
+  
   .whiteTextLeft {
       color: white;
       text-align: left;
+  }
+  
+  div#right2clmn.right2clmn,
+  div#left2clmn.left2clmn {
+      width: 38%;
+      height: 900px;
+      text-align: left;
+   
+  }
+  div#right2clmn.right2clmn {
+      float: right;
+      clear: right;
+       padding:18% 1% 1% 1%;
+  }
+  div#left2clmn.left2clmn {
+        padding:1% 1% 1% 16%;
+      float: left;
+      clear: left;
+      
+  }
+  .title.font-effect-fire-animation.centered {
+      width: inherit;
   }
