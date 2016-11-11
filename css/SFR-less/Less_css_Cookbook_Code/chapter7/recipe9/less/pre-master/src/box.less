@@ -1,0 +1,17 @@
+// CSS3 Box Module
+
+// content-box: border|padding|content {element width=border+padding+content} 
+// border-box:  content|border|padding {element width=content}
+
+.box-sizing(@model: content-box){
+	box-sizing: @model; /* IE9+ Opera10.5+*/
+	-moz-box-sizing: @model;
+	-webkit-box-sizing: @model;
+}
+
+
+.box-shadow(@args){
+	box-shadow: @args; /* IE9+ Opera10.5+*/
+	-moz-box-shadow: @args; 
+	-webkit-border-shadow:  @args; 
+}

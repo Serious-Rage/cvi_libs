@@ -1,0 +1,49 @@
+@safe: green;
+@danger: red;
+@warning: orange;
+@ContrastRatio: 7.0; //AAA
+@precision: 1%;
+@buttonTextColor: black;
+@threshold: 43;
+
+.setcontrastcolor(@startcolor) when (luma(@buttonTextColor) < @threshold) {
+	.contrastcolor(@startcolor) when (luma(@startcolor) < 100 ) and (((luma(@startcolor)+5)/(luma(@buttonTextColor)+5)) < @ContrastRatio) {
+	.contrastcolor(lighten(@startcolor,@precision));
+	}
+	.contrastcolor(@startcolor) when (@startcolor = color("white")),(((luma(@startcolor)+5)/(luma(@buttonTextColor)+5)) >= @ContrastRatio) {
+	@contrastcolor: @startcolor; 
+	}
+	.contrastcolor(@startcolor);
+}
+
+.setcontrastcolor(@startcolor) when (default()) {
+	.contrastcolor(@startcolor) when (luma(@startcolor) < 100 ) and (((luma(@buttonTextColor)+5)/(luma(@startcolor)+5)) < @ContrastRatio) {
+	.contrastcolor(darken(@startcolor,@precision));
+	}
+	.contrastcolor(@startcolor) when (luma(@startcolor) = 100 ),(((luma(@buttonTextColor)+5)/(luma(@startcolor)+5)) >= @ContrastRatio) {
+	@contrastcolor: @startcolor; 
+	}
+	.contrastcolor(@startcolor);
+}
+
+button {
+padding:10px;
+border-radius:10px;
+color:@buttonTextColor;
+width:200px;
+}
+
+.safe {
+.setcontrastcolor(@safe);
+background-color: @contrastcolor;
+}
+
+.danger {
+.setcontrastcolor(@danger);
+background-color: @contrastcolor;
+}
+
+.warning {
+.setcontrastcolor(@warning);
+background-color: @contrastcolor;
+}

@@ -1,0 +1,19 @@
+.base-font {
+font-family: Arial;
+}
+@media all {
+
+  .base-color {
+    color: green;
+  }
+  .base-class {
+       font-size: 2em;
+
+       @media (min-width: 768px) {
+         &.base-border {
+         border: 1px solid black;
+       }
+       }
+  }
+}
+.base-class-extended:extend(.base-font, .base-color,  .base-class.base-border) {}

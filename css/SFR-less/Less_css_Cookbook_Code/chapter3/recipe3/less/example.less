@@ -1,0 +1,8 @@
+@thickness: "thick"; 
+@position: top; 
+@path: "../images";
+
+.selector { 
+border-@{position}: ~"@{thickness} double red"; 
+background: url("@{path}/example.png"); 
+}

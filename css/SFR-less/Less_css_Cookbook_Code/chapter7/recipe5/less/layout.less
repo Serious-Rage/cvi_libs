@@ -1,0 +1,41 @@
+@import "lesshat-master/build/lesshat.less";
+nav > ul {
+  list-style: none;
+  margin: 0;
+  background: black;
+  .display(flex);  
+  .flex-direction(column);
+  @media all and (min-width: 768px) {
+  .justify-content(space-around);
+  .flex-direction(row);
+  }
+  @media all and (min-width: 970px) {
+  .justify-content(flex-end);
+  }
+  li {
+  padding: 20px;
+  a {
+  color: white;
+  &:hover{
+  color: red;
+  }
+  }
+  }
+}
+
+.main {
+.display(flex);  
+.flex-direction(column);
+section {
+background-color:blue;
+}
+@media all and (min-width: 768px) {
+.flex-direction(row);
+section {
+.flex-grow(3);
+}
+aside {
+.flex-grow(1);
+}
+}
+}

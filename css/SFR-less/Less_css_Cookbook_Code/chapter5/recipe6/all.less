@@ -1,0 +1,10 @@
+a.redlink {
+color:red;
+&:hover {
+color: lighten(red,20%);
+}
+}
+a.another:extend(a.redlink){}
+a.anotherwithhover:extend(a.redlink all){}
+.greenlink:extend(.redlink){} 
+.greenlinkall:extend(.redlink all){} 

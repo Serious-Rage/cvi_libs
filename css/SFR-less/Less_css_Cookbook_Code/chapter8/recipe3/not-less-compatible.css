@@ -1,0 +1,4 @@
+/* Modern browsers only (not IE 7) */
+html>/**/body {
+background-color:red;
+}

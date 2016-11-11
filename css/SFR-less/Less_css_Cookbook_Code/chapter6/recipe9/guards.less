@@ -1,0 +1,11 @@
+@color: white; 
+.mixin(@color) when (luma(@color) >= 50%) { 
+color: black; 
+} 
+.mixin(@color) when (luma(@color) < 50%) { 
+color: white; 
+} 
+
+p { 
+.mixin(@color); 
+} 

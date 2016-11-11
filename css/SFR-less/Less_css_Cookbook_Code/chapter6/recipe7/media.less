@@ -1,0 +1,17 @@
+.mixin(all) {
+@width: 50%;
+}
+.mixin(print) {
+@width: 100%;
+}
+
+p {
+@media (all) {
+.mixin(all);
+width: @width;
+}
+@media (print) {
+.mixin(print);
+width: @width;
+}
+}

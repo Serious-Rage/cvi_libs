@@ -1,0 +1,22 @@
+.rainbow(@number,@frequency:0) when (@number > 0)
+{
+	.setfrequency() when (@frequency = 0) {
+	@frequency: 5 / @number;
+	}
+	.setfrequency;
+	
+	.rainbow(@number - 1, @frequency);
+
+	@red: floor(sin(@frequency * (@number - 1) + 0) * 127 + 128);
+	@green: floor(sin(@frequency * (@number - 1) + 2) * 127 + 128);
+	@blue: floor(sin(@frequency * (@number - 1) + 4) * 127 + 128);
+	
+	
+	
+	@classname: e(%(".color-%a",@number));
+	@{classname} {
+		background-color: rgb(@red,@green,@blue);
+		height:30px;
+	}
+}
+.rainbow(12);

@@ -1,0 +1,9 @@
+@import "for";
+
+#nested-loops {
+    .for(3, 1); .-each(@i) {
+        .for(0, 2); .-each(@j) {
+            x: (10 * @i + @j);
+        }
+    }
+}

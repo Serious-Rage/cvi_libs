@@ -1,0 +1,13 @@
+@colors: "red", "blue", "yellow";
+
+.lighten(@i: 1) when (@i <= length(@colors)) {
+	
+	.lighten(@i + 1);
+	
+	@color: e(extract(@colors, @i));
+	
+	.light@{color} {
+    color: lighten(color(@color), 10%);
+	}
+}
+.lighten();

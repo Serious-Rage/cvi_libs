@@ -1,0 +1,17 @@
+.data() {
+  .-("dark"; black);
+  .-("light"; white);
+  .-("accent"; pink);
+}
+
+
+
+div {
+.data();
+  .-(@class-name; @color){
+    @class: e(@class-name);
+    &.@{class} {
+       color: @color;
+      }
+  }
+}

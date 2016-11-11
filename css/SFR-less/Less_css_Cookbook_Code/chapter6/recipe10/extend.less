@@ -1,0 +1,13 @@
+.baseheight {
+  height: 30px;
+}
+
+.mixin(@i: 2) when(@i > 0) {
+  .mixin(@i - 1);
+  .class@{i} {
+  width: 10*@i;
+  &:extend(.baseheight);
+  }
+}
+
+.mixin();

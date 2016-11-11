@@ -1,0 +1,21 @@
+@stop-color: red;
+@wait-color: orange;
+@go-color: green;
+
+.btn
+{
+	padding: 0 30px;
+	font-size: 2em;
+	&.stop {
+	background-color: @stop-color;
+	color: contrast(@stop-color);
+	}
+	&.wait {
+	background-color: @wait-color;
+	color: contrast(@wait-color);
+	}
+	&.go {
+	background-color: @go-color;
+	color: contrast(@go-color);
+	}
+}

@@ -1,0 +1,69 @@
+@base-width:800px;
+@base-color: Tomato;
+@dark-color: darken(@base-color,20%);
+@light-color: lighten(@base-color,20%);
+@inverse-color: spin(@base-color,180);
+
+// Reset the box-sizing
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+header {
+	width: @base-width;
+	background-color: @base-color;
+	h1 { 
+	color: contrast(@base-color);
+	}
+}
+
+nav {
+	background-color: contrast(@base-color);
+	width: @base-width;
+	li {
+	color: @base-color;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	}
+}
+
+.container {
+width: @base-width;
+background-color: contrast(@light-color);
+// prevent the container from having a calculated height of 0
+overflow: hidden;
+}
+
+article {
+	h1 {
+	color: @light-color;
+	}
+	float:left;
+	color: contrast(contrast(@light-color));
+	width: @base-width*0.8;
+}
+
+aside {
+@border-color: darken(@inverse-color,30%);
+border: ~"5px solid @{border-color}"; 
+background-color: @inverse-color;
+color: contrast(@inverse-color);
+float:right;
+width: @base-width*0.2;
+}
+
+footer {
+clear: both;
+background-color: @dark-color;
+color: contrast(@dark-color);
+width: @base-width;
+}

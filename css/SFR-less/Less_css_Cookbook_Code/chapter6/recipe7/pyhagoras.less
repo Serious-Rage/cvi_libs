@@ -1,0 +1,14 @@
+.longestSide(@a,@b) 
+{ 
+@length: sqrt(pow(@a,2) + pow(@b,2)); 
+} 
+div { 
+&.small { 
+.longestSide(3,4); 
+width: @length; 
+} 
+&.big { 
+.longestSide(6,7); 
+width: @length; 
+} 
+} 

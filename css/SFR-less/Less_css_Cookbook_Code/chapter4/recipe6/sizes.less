@@ -1,0 +1,9 @@
+@sizes: "small","medium","large";
+.build(@number) when (@number > 0) {
+  .build(@number - 1);
+  @class: e(%(".%s",extract(@sizes, @number)));
+  @{class} {
+  width: 100px * @number;
+  }
+}
+ .build(length(@sizes));

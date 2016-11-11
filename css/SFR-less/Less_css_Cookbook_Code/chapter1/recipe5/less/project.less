@@ -1,0 +1,22 @@
+@import "mixins.less";
+
+@header-background-color: red;
+@paragraph-background-color: orange;
+@footer-background-color: green;
+
+header {
+.roundedcorners();
+background-color: @header-background-color;
+color: contrast(@header-background-color);
+g:k;
+}
+p {
+.roundedcorners();
+background-color: @paragraph-background-color;
+color: contrast(@paragraph-background-color);
+}
+footer {
+.roundedcorners();
+background-color: @footer-background-color;
+color: contrast(@footer-background-color);
+}

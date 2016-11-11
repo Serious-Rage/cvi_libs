@@ -1,0 +1,12 @@
+.shadesofblue(@number; @blue:100%) when (@number > 0) 
+{ 
+	 
+	.shadesofblue(@number - 1, @blue - 10%); 
+
+	@classname: e(%(".color-%a",@number)); 
+	@{classname} { 
+		background-color: rgb(0, 0, @blue); 
+		height:30px; 
+	} 
+} 
+.shadesofblue(10);

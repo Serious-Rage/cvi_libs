@@ -1,0 +1,24 @@
+.mixin(){ 
+ height:50px; 
+} 
+ .mixin(@color) { 
+ color: @color; 
+} 
+
+.mixin(@width) { 
+ color: green; 
+ width: @width; 
+} 
+
+.mixin(@color; @width) { 
+ color: @color; 
+ width: @width; 
+} 
+
+selector1 { 
+ .mixin(red); 
+} 
+ 
+selector2 { 
+ .mixin(red; 500px); 
+}

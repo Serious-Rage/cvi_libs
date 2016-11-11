@@ -1,0 +1,21 @@
+@grid-columns: 4;
+@basefontsize: 16px;
+@sm-breakpoint: unit((768px / @basefontsize), em);
+
+.set-span(@col-number) {
+  flex-basis: ((100% / @grid-columns) * @col-number);
+  max-width: ((100% / @grid-columns) * @col-number);
+}
+
+.griditem(@span; xs){ 
+	.set-span(@span); 
+} 
+.griditem(@span; sm){ 
+	@media (min-width: @sm-breakpoint) { 
+	.set-span(@span); 
+	} 
+} 
+article {
+.griditem(4,xs);
+.griditem(2,sm);
+}

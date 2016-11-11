@@ -1,0 +1,34 @@
+@import "pre-master/dist/pre.less";
+@sprite-default-size: 23px;
+@sprite-default-margin: 0px;
+@sprite-image-base-path: "../images";
+@sprite-image: "social-icons1.png";
+
+a{
+    display:inline-block;
+    &.twitter {
+        .sprite-img(@sprite-image, 1,2);
+        &:hover {
+        .sprite-img(@sprite-image, 1,1);
+		}
+    }
+    &.facebook {
+        .sprite-img(@sprite-image, 2,2);
+        &:hover {
+        .sprite-img(@sprite-image, 2,1);
+		}
+    }
+        display:inline-block;
+    &.rss {
+        .sprite-img(@sprite-image, 3,2);
+        &:hover {
+        .sprite-img(@sprite-image, 3,1);
+		}
+    }
+    &.google {
+        .sprite-img(@sprite-image, 4,2);
+        &:hover {
+        .sprite-img(@sprite-image, 4,1);
+		}
+    }
+ }

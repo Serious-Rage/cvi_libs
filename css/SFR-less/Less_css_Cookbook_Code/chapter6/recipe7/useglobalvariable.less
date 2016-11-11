@@ -1,0 +1,10 @@
+.mixin() { 
+@v: 300; 
+} 
+.use-global-variable() { 
+property: @v; 
+} 
+.mixin; 
+p { 
+.use-global-variable; 
+}

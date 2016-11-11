@@ -1,0 +1,21 @@
+.figures() { 
+article { 
+
+figure { 
+.center-block(); 
+> img { 
+max-width:100%; 
+} 
+@media (min-width: @grid-float-breakpoint) 
+{ 
+max-width:50%; 
+.pull-right(); 
+} 
+} 
+.clearfix(); 
+} 
+} 
+
+#maincontent { 
+.figures(); 
+}

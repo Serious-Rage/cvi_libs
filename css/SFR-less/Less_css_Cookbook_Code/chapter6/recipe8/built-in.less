@@ -1,0 +1,11 @@
+.mixin(@color; @rules) 
+{ 
+@othercolor: green; 
+@media (print) { 
+@rules(); 
+} 
+} 
+
+p { 
+.mixin(red; {color: lighten(@othercolor,20%); background-color:darken(@color,20%);}) 
+}

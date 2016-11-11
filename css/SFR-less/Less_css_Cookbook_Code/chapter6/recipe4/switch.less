@@ -1,0 +1,16 @@
+@browserversion: ie9; 
+.mixin(ie9,@degrees){ 
+transform:rotate(@degrees); 
+-ms-transform:rotate(@degrees); 
+-webkit-transform:rotate(@degrees);
+} 
+.mixin(ie10,@degrees){ 
+transform:rotate(@degrees); 
+-webkit-transform:rotate(@degrees);   
+} 
+.mixin(@_,@degrees){ 
+transform:rotate(@degrees); 
+} 
+div { 
+.mixin(@browserversion,70deg); 
+}

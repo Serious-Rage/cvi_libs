@@ -1,0 +1,8 @@
+.mixin(@value) when (iscolor(@value)){
+background-color: @value;
+}
+.mixin(@value) when not(default()) {
+color: contrast(@value);
+}
+
+test {.mixin(black);}

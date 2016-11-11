@@ -1,0 +1,7 @@
+@import "grid.less";
+@basefontsize: 16;
+@sm-breakpoint: unit((768 / @basefontsize),em);
+.make-cols(xs);
+@media (min-width: @sm-breakpoint) {
+.make-cols(sm);
+}

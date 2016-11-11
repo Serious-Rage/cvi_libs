@@ -1,0 +1,10 @@
+.background(@color; @image; @repeat: no-repeat; @position: top right;)
+{
+	background: @arguments;
+}
+
+div {
+.background(#000; data-uri('../images/bg.png'));
+width:300px;
+height:300px;
+}

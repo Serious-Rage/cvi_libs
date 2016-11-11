@@ -1,0 +1,19 @@
+.img-retina(@file; @width; @height) {
+  background-image: url("@{file}");
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    background-image: e(%('url("%s")',replace(@file, "\.([a-zA-Z]{3,4})$", "_2x.$1")));
+    @size: ~"@{width} @{height}";
+    -webkit-background-size: @size;
+	background-size: @size;
+  }
+}
+
+body {
+.img-retina('example.png', 100px, 100px);
+}

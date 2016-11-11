@@ -1,0 +1,15 @@
+.mixin(1) {
+  property: 1 * 2;
+}
+.mixin(2) {
+  property: 2 * 3;
+}
+.mixin(@a) when (default()) {
+  property: @a;
+}
+one {
+.mixin(1);
+}
+five {
+.mixin(5);
+}

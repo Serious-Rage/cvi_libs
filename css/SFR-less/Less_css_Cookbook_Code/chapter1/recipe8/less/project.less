@@ -1,0 +1,25 @@
+@startcolor: white;
+.color1 {
+background-color: @startcolor; 
+color: contrast(@startcolor);
+}
+.color2 {
+@color: darken(@startcolor,25%);
+background-color: @color; 
+color: contrast(@color);
+}
+.color3 {
+@color: darken(@startcolor,50%);
+background-color: @color; 
+color: contrast(@color);
+}
+.color4 {
+@color: darken(@startcolor,75%);
+background-color: @color; 
+color: contrast(@color);
+}
+.color5 {
+@color: darken(@startcolor,100%);
+background-color: @color; 
+color: contrast(@color);
+}

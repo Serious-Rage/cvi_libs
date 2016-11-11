@@ -1,0 +1,33 @@
+// Backgroud Module
+
+// backgroud-attachment: scroll|fixed|inherit
+// background-clip: padding-box|border-box|content-box;
+// background-origin: padding-box|border-box|content-box;
+// background-size: length|percentage|cover|contain;
+.background(@color: transparent, @image: none, @repeat: repeat, @attachment: scroll, @position: 0% 0%, @clip: padding-box, @origin: padding-box, @size: auto){
+	background-color: @color;
+	background-image: url('@{image}');
+	background-repeat: @repeat;
+	background-attachment: @attachment;
+	background-position: @position;
+	.background-clip(@clip);
+	background-origin: @origin;
+	.background-size(@size);
+}
+
+.background-translucent(@color: @white, @alpha: 1) {
+	background-color: hsla(hue(@color), saturation(@color), lightness(@color), @alpha);
+}
+
+// https://developer.mozilla.org/en/CSS/background-
+.background-size(@size){
+	-moz-background-size: @size;           /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: @size;           /* Opera 9.5 */
+    -webkit-background-size: @size;           /* Safari 3.0 */
+    background-size: @size;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+
+.background-clip(@clip){
+	background-clip: @clip;
+	-webkit-background-clip: @clip; /*Safari*/
+}

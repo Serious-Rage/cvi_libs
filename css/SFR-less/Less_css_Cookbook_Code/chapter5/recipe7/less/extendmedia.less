@@ -1,0 +1,19 @@
+.basefont { 
+font-family: Arial; 
+} 
+@media all { 
+
+  .maincolor { 
+  color: green; 
+  } 
+  p.based { 
+       &:extend(.basefont, .basecolor, .baseborder); 
+       font-size: 2em; 
+
+       @media (min-width: 768px) { 
+       &.baseborder { 
+               border: 1px solid black; 
+       } 
+       } 
+  } 
+}

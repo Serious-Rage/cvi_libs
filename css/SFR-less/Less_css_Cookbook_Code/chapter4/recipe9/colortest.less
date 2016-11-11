@@ -1,0 +1,18 @@
+.colortest(@color,@testnumber) when (iscolor(@color))
+{
+	result-@{testnumber}: %("%a is a color",@color);
+}
+.colortest(@color,@testnumber) when (default())
+{
+        result-@{testnumber}: %("%a is Not a color",@color);
+}
+
+
+test {
+.colortest(blue,1);
+.colortest("blue",2);
+.colortest(color("blue"),3);
+.colortest(~"blue",4);
+//.colortest(color(~"blue"),5);
+.colortest(transparent,5);
+}

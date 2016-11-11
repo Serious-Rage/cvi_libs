@@ -1,0 +1,12 @@
+.mixin() {
+color: red;
+font-size: 2em;
+}
+p {
+&.important {
+.mixin !important;
+}
+&.unimportant {
+.mixin;
+}
+}

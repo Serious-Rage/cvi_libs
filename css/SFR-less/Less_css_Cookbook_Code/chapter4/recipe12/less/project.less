@@ -1,0 +1,9 @@
+div.green {
+background-color: @startcolor;
+color: contrast(@startcolor);
+border: e(%("5px solid %a",darken(@startcolor,10%))); 
+&:hover {
+background-color: fadeout( @startcolor ,50%);
+}
+}
+@startcolor: green;

@@ -1,0 +1,21 @@
+// Box sizing
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+.container {
+	&.fit {
+		.box-sizing(border-box);
+	}
+
+	> div {
+		background-color: black;	
+		border: 5px red solid;
+		width:50%;
+		float:left;
+		color:white;
+		padding:10px;
+		.box-sizing(inherit);
+	}
+}

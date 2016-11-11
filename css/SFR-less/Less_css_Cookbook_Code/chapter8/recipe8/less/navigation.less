@@ -1,0 +1,24 @@
+nav#mainmenu > ul {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  background: purple;
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 48em) {
+  justify-content: space-around;
+  flex-direction: row;
+  }
+  @media all and (min-width: 62em) {
+  justify-content: flex-end;
+  }
+  li {
+  padding: 20px;
+  a {
+  color: white;
+  &:hover{ 
+  color: red; 
+  }
+  }
+  }
+}

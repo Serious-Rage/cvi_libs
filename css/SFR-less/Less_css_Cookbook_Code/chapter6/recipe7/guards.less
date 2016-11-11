@@ -1,0 +1,13 @@
+.mixin(@a) {
+.test(@a) when (@a < 5) {
+@size: 5px;
+}
+.test(@a) when (@a >= 5) {
+@size: 50px;
+}
+.test(@a);
+}
+p {
+.mixin(6);
+size: @size;
+}

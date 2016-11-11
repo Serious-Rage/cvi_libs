@@ -1,0 +1,17 @@
+.smallscreens-and-olderbrowsers(@rules) {
+	.lt-ie9 & {
+		@rules();
+	}
+
+	@media (min-width:768px) {
+		@rules();
+	}
+}
+nav {
+float: left;
+width: 20%;
+.smallscreens-and-olderbrowsers({
+float: none;
+width:100%;
+});
+}

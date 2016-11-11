@@ -1,0 +1,1 @@
+{"version":3,"sources":["../less/project.less","../less/mixins.less"],"names":[],"mappings":"AACA;ECCC,WAAA;EACA,cAAA;EAGA,4BAAA","file":"project.css","sourcesContent":["@import \"mixins.less\";\nh1 {\n.heading(2em);\n.shadow();\n}\n",".heading(@font-size:4em)\n{\n\tcolor:navy;\n\tfont-size: @font-size;\n}\n.shadow() {\n\ttext-shadow: 2px 2px #ff0000;\n}\n"]}

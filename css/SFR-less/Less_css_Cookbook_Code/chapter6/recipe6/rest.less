@@ -1,0 +1,16 @@
+.mixin(@a...) 
+{ 
+.set(@a) when (iscolor(@a)) { 
+color: @a; 
+} 
+.set(@a) when (length(@a) = 2) { 
+margin: @a; 
+} 
+.set(@a); 
+} 
+p{ 
+.mixin(red); 
+} 
+p { 
+.mixin(2px;4px); 
+} 

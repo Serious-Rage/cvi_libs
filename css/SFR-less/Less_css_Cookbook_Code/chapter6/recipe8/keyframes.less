@@ -1,0 +1,16 @@
+// Keyframe
+.keyframe(@name; @roules) {
+  @-webkit-keyframes @name {
+    @roules();
+  }
+  @-o-keyframes @name {
+    @roules();
+  }
+  @keyframes @name {
+    @roules();
+  }
+}
+.keyframe(progress-bar-stripes; {
+  from  { background-position: 40px 0; }
+  to    { background-position: 0 0; }
+});
