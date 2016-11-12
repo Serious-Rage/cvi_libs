@@ -6,20 +6,24 @@
 		<title>&dagger; SFR-Web &dagger;</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Anton|Baloo+Chettan|Dancing+Script:400,700|Gloria+Hallelujah&effect=fire-animation|Indie+Flower|Lobster|Pacifico|Shadows+Into+Light" rel="stylesheet">
-		<link rel="stylesheet/less" type="text/css" href="styles.less">
-
+		<link rel="stylesheet/less" type="text/css" href="less/styles.less">
+    <!--
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+	-->	
 		<script type="text/javascript" src="less.js"></script>
 	</head>
+<header>
+	<h1>This is a Less Cookbook starter template </h1>
+</header>		
 <body>
+	
     	<div id="container">
-			<p class="title font-effect-fire-animation">This is a Less Cookbook starter template </p>
 				<h2>Usefull Information</h2>
-			<div id="header" class="font-effect-fire-animation">
-				<p class="title font-effect-fire-animation">Pleas do not edit this oroginal copy</p>
+			<div id="info">
+				<p>Please do not edit this oroginal copy</p>
 					<ul class="navigation">
 						<li class="first"><a href="../Less_css_Cookbook_Code">Recipes</a></li>
-						<li><a href="http://lesscss.org/">lees website</a></li>
+						<li><a href="http://lesscss.org/">LESS website</a></li>
 						<li><a href="https://play.google.com/books/reader?printsec=frontcover&output=reader&id=ZPpzBgAAQBAJ&pg=GBS.PA10.w.7.0.54.0.1">Cookbook</a></li>
 						<li class="last"><a href="#">Dummy Link</a></li>
 					</ul>
@@ -28,17 +32,15 @@
 						following line into your header ( In production a regular css file compiled on the server will
 						be used, so in that case the less script will not be necessary or referenced.):
 					</p>
-				<pre>
-					<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
-				</pre>
+				<code>	
+					<pre>&lt;script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"&gt;&lt;/script&gt;</pre>
+				</code style="color: #000;">
 					<p>	
 						If you prefer using a local copy of the scrip during development, you can keep it in the same folder
 						as your webpage and use the following line in your page header ( Download the latest script from the
 						official <a href="http://lesscss.org/" >Less</a> website):
 					</p>
-				<pre>
-					<script src="less.js" type="text/javascript"></script>
-				</pre>
+				<pre>&lt;script src="less.js" type="text/javascript"&gt;&lt;/script&gt;</pre>
 					<p>
 						You will want to compile your less file to css on the server side to use in 
 						production, but in development a client side script is usefull to test your edits. Keep 
@@ -46,9 +48,7 @@
 						file with the following tag line in the header (place this above the tag line which imports
 						the less.js script, also used in development):	
 					</p>
-				<pre>
-					<link rel="stylesheet/less" type="text/css" href="styles.less" />
-				</pre>
+				<pre>&lt;link rel="stylesheet/less" type="text/css" href="less/styles.less" /&gt;</pre>
 		</div>
 				<div id="content">
 					<p>Content</p>
