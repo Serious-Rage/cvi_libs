@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+	<title>&dagger; SFR-Web &dagger;</title>
+	<script type="text/javascript" src="SFR.custom.jq.js"></script> 
+	<script type="text/javascript" src="SFR.img.plgin.js"></script> 
+
+	
+	</head>
+	<body>
+		<h1>Click the images to see the effect</h1>
+		<!-- These are the two images we want to use the plugin on -->
+		<img id="orange-flower" src="../../images/istack/purpeye.png" alt="orange flower" style="width:333px; height:250px;" />
+		<img id="red-flower" src="../../images/istack/fly.png" alt="red flower"  style="width:333px; height:250px;" />
+
+	<script type="text/javascript">
+	
+		//Run the applyFilter function when the image with ID "orange-flower" is clicked.
+		$("#orange-flower").click(applyFilter); 
+		
+		//This function applies the saturation filter with the amount set to 0.0 (grayscale).
+		function applyFilter(){
+			$("#orange-flower").jsManipulate("apply", {filter: "saturation", values: {amount: 0.0}});
+		}
+		
+		//Convert the image to a canvas object first.
+		$("#red-flower").jsManipulate("convert");
+		//Run the animateFilter function when the image with ID "red-flower" is clicked.
+		$("#red-flower").click(animateFilter);
+		
+		//This function also grayscales the image, but does this with an animation from
+		//right to left.
+		function animateFilter(){
+			$("#red-flower").jsManipulate("animate", {
+				filter: "saturation", 
+				values: {amount: 0.0},
+				direction: "left"
+			});
+		}
+	</script>
+	
+	</body>
+</html>
