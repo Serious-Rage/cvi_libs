@@ -11,12 +11,16 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/SFR_CDNs.json
 * CDN to FLAME Effect Sample v1.1.2
 https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
 
+
+//******* TO-RO *******
+//markup notes on w3 css
 */
 
  {"cdn":   
      {
        "js" : [ 
             { "less.min.js": "//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js" },
+            {"bootstrap-3.3.7.min.js-maxcdn": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" },
             { "cvi_istack_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_istack_lib.js" },
             { "cvi_corner_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_corner_lib.js" },
             { "cvi_filter_lib.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/cvi_filter_lib.js" },
@@ -31,7 +35,11 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
             { "less.js": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.3/css/sfr-LESS/less.js" },
             { "velocity.min.js": "https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js" },
             { "jqx-all.js": "https://www.jqwidgets.com/public/jqwidgets/jqx-all.js" },
-            { "jquery.min.js": "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" },
+            { "jquery-v1.11.3.min.js": "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" },
+            { "jQuery-3.1.1.min.js": "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" },
+            { "jQuery-2.2.4.min.js": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" },
+            { "jQuery-1.12.4.min.js": "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" },
+            { "jquery-2.2.0.js": "http://code.jquery.com/jquery-2.2.0.js" },
             { "jqx.base.css": "https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" },
             { "jQwidjitGlobalize": "https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"}
               ],
@@ -48,12 +56,14 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
             { "styles2.less": "css/SFR_less/styles2.less" }
               ],            
        "css": [
-            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" }, 
+            {"reset.css": "https://cdn.rawgit.com/Serious-Rage/161281ab353886c4dcafd40fce2e3f36/raw/9e8b46549736b09b07909cb87d9a4aba94e04e8d/reset.css" },
+            {"bootstrap-3.3.7-css.min-maxcdn": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" }, 
             {"SFR_basic.css_v1.1.2": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/basic.css" },
             {"SFR_verbose_boot.css": "https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" },
             {"SFR_wRset_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" }, 
             {"googleFontsBasic1_inc_Flames": "https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Anton|Baloo+Chettan|Dancing+Script:400,700|Gloria+Hallelujah&effect=fire-animation|Indie+Flower|Lobster|Pacifico|Shadows+Into+Light" }, 
             {"googleFonts_handWriting_pack.css": "https://fonts.googleapis.com/css?family=Allura|Bad+Script|Clicker+Script|Damion|Grand+Hotel|Homemade+Apple|Kalam:300,400,700|Lobster|Pinyon+Script|Rock+Salt|Sacramento|Shrikhand&amp;subset=cyrillic,devanagari,gujarati,latin-ext,vietnamese" },
+            {"W3.css_library": "https://docs.google.com/spreadsheets/d/1eEiGNYfPAxjQMjbOfd4bsylR5157681VVvxklw3XsOk/pubhtml" },
             {"jqx.energyblue.css": "https://www.jqwidgets/styles/jqx.energyblue.css" },
             {"overlay.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.1/overlay.css" },
             {"git_serious.css": "https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.0.2/git_serious.css" },
@@ -72,12 +82,22 @@ https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/test.html
 
 ###  dummy entries - use one then duplicate other
 
+  {"W3.css_library": "https://docs.google.com/spreadsheets/d/1eEiGNYfPAxjQMjbOfd4bsylR5157681VVvxklw3XsOk/pubhtml" },
   {"XXXXXXX": "XXXXXXXX" },
   {"XXXXXXX": "XXXXXXXX" },
   {"XXXXXXX": "XXXXXXXX" },
   {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  {"XXXXXXX": "XXXXXXXX" },
+  
+  
 
-
+// drive shots
+https://docs.google.com/document/d/1LgpwfhpCj1rwftDv_H-blA_pV1Ftf5a_MAqqYlw1C1s/pub
 - - - - - - - - - - - - - - - - - - - - - - - - - - 
 TO - Do 
 ***************************************************************************************
@@ -92,7 +112,9 @@ TO - Do
 ***************************************************************************************
 ***************************************************************************************
 
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 https://cdn.rawgit.com/Serious-Rage/cvi_libs/v1.1.2/css/less.css
 <<<<<<< HEAD
